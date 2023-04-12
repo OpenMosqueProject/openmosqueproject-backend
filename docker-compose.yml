@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  api:
+    build: .
+    image: open-mosque-api:latest
+    ports:
+      - "8080:8080"
